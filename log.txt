@@ -1,0 +1,17 @@
+Live reload server started on port: 35729
+Press CTRL+C to quit ...
+
+[0;36minfo:[0m loading book configuration....[0;32mOK[0m 
+[0;36minfo:[0m load plugin gitbook-plugin-highlight ....[0;32mOK[0m 
+[0;36minfo:[0m load plugin gitbook-plugin-search ....[0;32mOK[0m 
+[0;36minfo:[0m load plugin gitbook-plugin-sharing ....[0;32mOK[0m 
+[0;36minfo:[0m load plugin gitbook-plugin-fontsettings ....[0;32mOK[0m 
+[0;36minfo:[0m load plugin gitbook-plugin-livereload ....[0;32mOK[0m 
+[0;36minfo:[0m [0;32m>> [0m5 plugins loaded 
+[0;36minfo:[0m start generation with website generator 
+[0;36minfo:[0m clean website generator
+[0;36minfo:[0m [0;32mOK[0m 
+[0;36minfo:[0m generation is finished 
+
+Starting server ...
+Serving book on http://localhost:4000
