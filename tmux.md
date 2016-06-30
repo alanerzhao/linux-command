@@ -90,3 +90,40 @@ PREFIX o	在已打开的面板之间循环移动当前焦点
 PREFIX q	短暂地显示每个面板的编号
 PREFIX x	关闭当前面板，带有确认提示
 PREFIX SPACE	循环地使用 tmux 的几个默认面板布局
+
+#### 定制tmux 
+
+tmux 会在两个位置 查找配置文件。首先查找/etc/tmux.conf作为系统配置，然后在当前用户的主目录下查找.tmux.conf
+重读配置文件 source-file ~/.tmux.conf
+
+#### 脚本定制tmux环境
+
+```bash
+    tmux new -session -s development
+    tmux split-window -h -t development
+```
+所有配置都写在家目录的bin/development的脚本里
+
+#### 文本和缓冲区
+经常需要滚屏目显示已经不在屏幕范围内的内容
+```bash
+ctrl -a [ 进入复制 模式 就可以上下移动了文本了
+ctrl -b ctrl -f 上翻 下翻
+查找关键字 ? / 向上查找，向下查找
+```
+#### 复制粘贴文本
+```
+    space 空格模式进入复制 可以用vim 等相关操作
+    enter 复制完成
+    然后在切换到复制 模式
+    ctrl -a ] 粘贴文本
+    capture-pane 命令行复制整个面板
+    PREFIX ! 面板变窗口
+```
+
+
+
+
+
+
+
