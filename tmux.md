@@ -44,6 +44,9 @@ ctrl -b n , p 窗口切换或者ctrl -b 0-9
 ctrl -b w 查看有多少窗口
 ctrl -b s 查看有多少会话
 ctrl -b & 关闭窗口
+swap-window -s 3 -t 1  交换 3 号和 1 号窗口
+swap-window -t 1       交换当前和 1 号窗口
+move-window -t 1       移动当前窗口到 1 号
 ```
 
 #### 使用面板
