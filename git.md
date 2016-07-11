@@ -1,6 +1,7 @@
 
 #### git
 ```
+    asdasd
     git config --global //配置全局文件
     git config --list //查看配置信息
     在.git仓库下则配置的是当前仓库的 如果加入--global则配置的全局的
